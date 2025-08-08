@@ -51,7 +51,7 @@ const divide = tool(
 // Augment the LLM with tools
 const tools = [add, multiply, divide];
 const toolsByName = Object.fromEntries(tools.map((tool) => [tool.name, tool]));
-
+// Reference : https://www.npmjs.com/package/@langchain/openai
 // Initialize the LLM (Large Language Model) instance
 const llm = new ChatOpenAI({
   // Add your configuration options here, e.g. apiKey, model, etc.
