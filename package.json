@@ -1,0 +1,27 @@
+{
+  "name": "langchain-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prep": "npm install",
+    "build": "tsc",
+    "run": "node dist/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.26",
+    "@langchain/core": "^0.3.68",
+    "@langchain/langgraph": "^0.4.3",
+    "@langchain/openai": "^0.6.7",
+    "openai": "^5.12.2",
+    "zod": "^3.25.76"
+  }
+}
